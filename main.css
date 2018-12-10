@@ -1,16 +1,55 @@
-div h1 {
-    text-align: center;
+div header {
+  text-align: center;
+  font-size: 2rem;
 }
 
 nav ul {
-    border: solid rgb(27, 27, 27);
-    height: 200px;
-    overflow-y: auto;
+  border: solid rgb(27, 27, 27);
+  height: 200px;
+  overflow-y: auto;
+  padding-inline-start: 0px;
+}
+
+nav ul a {
+  text-decoration: none;
 }
 
 nav ul a li {
-    list-style-type: none;
-    border-bottom: solid 1px rgb(112, 108, 108);
-    font-size: 1.2rem;
-    padding: 5px;
+  list-style-type: none;
+  border-top: solid 1px rgb(112, 108, 108);
+  font-size: 1.2rem;
+  padding: 5px 0px 5px 20px;
+  display: block;
+  color: black;
+}
+
+section header {
+  text-align: left;
+}
+
+#main-doc section header {
+  font-size: 1.8rem;
+}
+@media screen and (min-width: 900px) {
+  #navbar {
+    float: left;
+    position: fixed;
+    margin: 0;
+    height: 100%;
+    border-right: solid 1px rgb(112, 108, 108);
+  }
+
+  nav ul {
+    height: 100%;
+    border: none;
+  }
+
+  nav ul a li {
+    font-size: 1.4rem;
+    padding: 15px 5px 15px 20px;
+  }
+
+  #main-doc {
+    margin-left: 350px;
+  }
 }
