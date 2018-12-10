@@ -30,6 +30,26 @@ section header {
 #main-doc section header {
   font-size: 1.8rem;
 }
+
+#main-doc section p {
+  font-size: 1.2rem;
+}
+#main-doc section li {
+  font-size: 1.2rem;
+}
+#main-doc {
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+#main-doc section {
+  margin-bottom: 30px;
+}
+
+.back-code {
+  background-color: rgb(216, 212, 212);
+  padding: 10px 10px;
+}
 @media screen and (min-width: 900px) {
   #navbar {
     float: left;
